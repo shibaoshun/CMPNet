@@ -1,0 +1,26 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Training results
+result468/
+result_finetune_prostate/
+lr2e4_lamda0.1_beta0.5/
+outputs/
+checkpoints/
+logs/
+runs/
+
+# Model weights
+*.pth
+*.pt
+*.ckpt
+
+# Datasets
+data/
+datasets/raw/
+
+# Environment and secrets
+.env
+.env.*
